@@ -211,8 +211,12 @@
 }
 
 @media (min-width: 321px) and (max-width: 376px) {
+  #home {
+    height: 78vh;
+  }
+  
   #about {
-    height: 340vh;
+    height: 280vh;
   }
 
   .intro-content {
@@ -254,11 +258,11 @@
   }
 
   #services {
-    height: 515vh;
+    height: 425vh;
   }
 
   #work {
-    height: 180vh;
+    height: 155vh;
   }
   .cube {
     height: 75%;
@@ -314,7 +318,7 @@
   }
 
   #certificate {
-    height: 80vh;
+    height: 55vh;
   }
 
   #contact::before {
@@ -322,7 +326,7 @@
   }
 
   #contact {
-    height: 375vh !important;
+    height: 320vh !important;
   }
 
   .contact-title {
